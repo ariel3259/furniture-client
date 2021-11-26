@@ -22,7 +22,7 @@ header{
     padding : 25px;
     background: #f50;
     color : white;
-    box-shadow: 0 0 5px 1px #000;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .login-form{
     grid-column: 7 / 11;
@@ -35,4 +35,17 @@ header{
     justify-content: center;
     background-color: darkslateblue;
     color:white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media screen and (max-width:414px) {
+
+    .login-form {
+        margin:10PX 10PX;
+        grid-column: 1/11;
+        grid-row: 2/11;
+        border: 1px solid #000;
+        border-radius:15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
 }
